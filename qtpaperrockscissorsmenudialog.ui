@@ -33,7 +33,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
       <string/>
      </property>
      <property name="pixmap">
-      <pixmap resource="ToolPaperRockScissors.qrc">:/images/ToolPaperRockScissors.png</pixmap>
+      <pixmap resource="PaperRockScissors.qrc">:/images/PaperRockScissors.png</pixmap>
      </property>
      <property name="alignment">
       <set>Qt::AlignCenter</set>
@@ -74,7 +74,7 @@ QPushButton { font: 48px, &quot;monospace&quot; }</string>
  </widget>
  <layoutdefault spacing="6" margin="11"/>
  <resources>
-  <include location="ToolPaperRockScissors.qrc"/>
+  <include location="PaperRockScissors.qrc"/>
  </resources>
  <connections/>
 </ui>
