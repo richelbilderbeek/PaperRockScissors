@@ -14,7 +14,6 @@
 
 #include "paperrockscissorssimulation.h"
 #include "fileio.h"
-#include "richelbilderbeekprogram.h"
 #include "testtimer.h"
 #include "trace.h"
 #pragma GCC diagnostic pop
