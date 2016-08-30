@@ -1,14 +1,11 @@
-INCLUDEPATH += \
-    ../PaperRockScissors
+INCLUDEPATH += $$PWD
 
 SOURCES += \
-    ../PaperRockScissors/paperrockscissorsmenudialog.cpp
+    $$PWD/paperrockscissorsmenudialog.cpp
 
 HEADERS += \
-    ../PaperRockScissors/paperrockscissorsmenudialog.h
+    $$PWD/paperrockscissorsmenudialog.h
 
 RESOURCES += \
-    ../PaperRockScissors/PaperRockScissors.qrc
+    $$PWD/PaperRockScissors.qrc
 
-OTHER_FILES += \
-    ../PaperRockScissors/LICENSE
