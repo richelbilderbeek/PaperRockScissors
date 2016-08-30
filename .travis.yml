@@ -10,7 +10,6 @@ before_install:
 install: 
   - sudo apt-get install -qq g++-5
   - sudo update-alternatives --install /usr/bin/gcov gcov /usr/bin/gcov-5 90
-  # - sudo apt-get install witty-dev
   - ./install_oclint.sh
 
 addons:
@@ -29,8 +28,7 @@ before_script:
 script: 
   - ./build_console.sh
   - ./build_desktop.sh
-  # - ./build_website.sh
-  - ./AsciiArterConsole --about
+  - ./PaperRockScissorsConsole --about
   - ./get_code_cov.sh
   - codecov
   - ./do_oclint.sh
