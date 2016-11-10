@@ -32,10 +32,6 @@ private slots:
 
 private:
   Ui::QtPaperRockScissorsMenuDialog *ui;
-
-  #ifndef NDEBUG
-  static void Test() noexcept;
-  #endif
 };
 
 } //~namespace ribi

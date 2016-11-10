@@ -1,10 +1,13 @@
 include(../RibiLibraries/ConsoleApplicationNoWeffcpp.pri)
 include(../RibiLibraries/Boost.pri)
-include(../RibiLibraries/GeneralConsole.pri)
+
+include(../RibiClasses/CppAbout/CppAbout.pri)
+include(../RibiClasses/CppFileIo/CppFileIo.pri)
+include(../RibiClasses/CppHelp/CppHelp.pri)
+include(../RibiClasses/CppMenuDialog/CppMenuDialog.pri)
 
 include(CppPaperRockScissors.pri)
 include(CppPaperRockScissorsSimulation.pri)
-
 include(PaperRockScissorsConsole.pri)
 
 SOURCES += main.cpp

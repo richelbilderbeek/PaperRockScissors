@@ -10,8 +10,6 @@
 #include "qtpaperrockscissorswidget.h"
 #include "qtpaperrockscissorsmaindialog.h"
 
-#include "trace.h"
-#include "testtimer.h"
 #include "ui_qtpaperrockscissorsmenudialog.h"
 #pragma GCC diagnostic pop
 
@@ -72,18 +70,3 @@ void ribi::QtPaperRockScissorsMenuDialog::on_button_quit_clicked()
   this->close();
 }
 
-#ifndef NDEBUG
-void ribi::QtPaperRockScissorsMenuDialog::Test() noexcept
-{
-  {
-    static bool is_tested{false};
-    if (is_tested) return;
-    is_tested = true;
-  }
-  {
-    QtPaperRockScissorsWidget();
-  }
-  const TestTimer test_timer(__func__,__FILE__,1.0);
-  QtPaperRockScissorsMenuDialog();
-}
-#endif

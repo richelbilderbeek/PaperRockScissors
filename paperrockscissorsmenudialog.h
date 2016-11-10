@@ -25,12 +25,6 @@ struct MenuDialog final : public ::ribi::MenuDialog
   Help GetHelp() const noexcept override;
   std::string GetVersion() const noexcept override;
   std::vector<std::string> GetVersionHistory() const noexcept override;
-
-  private:
-
-  #ifndef NDEBUG
-  static void Test() noexcept;
-  #endif
 };
 
 } //~namespace prs
