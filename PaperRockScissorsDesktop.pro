@@ -9,9 +9,9 @@ include(../RibiClasses/CppMenuDialog/CppMenuDialog.pri)
 include(../RibiClasses/CppQtAboutDialog/CppQtAboutDialog.pri)
 include(../RibiClasses/CppQtHideAndShowDialog/CppQtHideAndShowDialog.pri)
 
-include(CppPaperRockScissors.pri)
-include(CppPaperRockScissorsSimulation.pri)
-include(CppQtPaperRockScissorsSimulation.pri)
+include(PaperRockScissors.pri)
+include(PaperRockScissorsSimulation.pri)
+include(QtPaperRockScissorsSimulation.pri)
 
 include(PaperRockScissorsDesktop.pri)
 

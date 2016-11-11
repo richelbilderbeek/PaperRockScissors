@@ -6,8 +6,8 @@ include(../RibiClasses/CppFileIo/CppFileIo.pri)
 include(../RibiClasses/CppHelp/CppHelp.pri)
 include(../RibiClasses/CppMenuDialog/CppMenuDialog.pri)
 
-include(CppPaperRockScissors.pri)
-include(CppPaperRockScissorsSimulation.pri)
+include(PaperRockScissors.pri)
+include(PaperRockScissorsSimulation.pri)
 include(PaperRockScissorsConsole.pri)
 
 SOURCES += main.cpp
