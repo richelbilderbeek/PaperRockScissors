@@ -1,6 +1,7 @@
 # PaperRockScissors
 
-[Go to the nicely rendered website](https://richelbilderbeek.github.io/PaperRockScissors/).
+[Go to the nicely rendered
+website](https://richelbilderbeek.github.io/PaperRockScissors/).
 
 Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)|[![Codecov logo](pics/Codecov.png)](https://www.codecov.io)
 ---|---|---
@@ -9,4 +10,4 @@ Branch|[![Travis CI logo](pics/TravisCI.png)](https://travis-ci.org)|[![Codecov 
 
 C++ spatial simulation of paper-rock-scissors
 
-![](pics/20190418.png)
+![PaperRockScissors](pics/20190418.png)
