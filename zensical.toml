@@ -2,7 +2,7 @@
 site_name = "PaperRockScissors"
 site_url = "https://richelbilderbeek.github.io/PaperRockScissors/"
 repo_url = "https://github.com/richelbilderbeek/PaperRockScissors"
-edit_uri = "blob/master/docs/"
+edit_uri = "blob/main/docs/"
 
 nav = [
   { "Start" = "README.md"}
